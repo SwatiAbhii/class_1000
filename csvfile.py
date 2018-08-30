@@ -13,25 +13,27 @@ from csv import *
         
 
 
-def pen(file,data):
-	write = writer(file,delimiter = ',')
-	for line in data:
-		write.writerow(line)
+# def pen(file,data):
+# 	write = writer(file,delimiter = ',')
+# 	for line in data:
+# 		write.writerow(line)
 def reader(file):
 	reaad = DictReader(file,delimiter=',')
-	print(next(reaad))
-	print(next(reaad))
-	print(next(reaad))
+	for a in reaad:
+		print('Name is :',a['name'])
+		print('Address is :',a['address'])
+		print('Phone Number is :',a['phonenumber'])
+		print(60*'-')
 if __name__ == '__main__':
-	file = open('sample.csv','w')
-	data = ['name,address,phonenumber'.split(','),
-				'Batman,USA,234564'.split(','),
-				'superman,USA,34534234564'.split(','),
-				'ironman,USA,2356564564'.split(','),
-				'woman,USA,2398894564'.split(','),
-				'panther,USA,13233333'.split(','),
-				'hulck,USA,34545345'.split(',')]
-	pen(file,data)
+	# file = open('sample.csv','w')
+	# data = ['name,address,phonenumber'.split(','),
+	# 			'Batman,USA,234564'.split(','),
+	# 			'superman,USA,34534234564'.split(','),
+	# 			'ironman,USA,2356564564'.split(','),
+	# 			'woman,USA,2398894564'.split(','),
+	# 			'panther,USA,13233333'.split(','),
+	# 			'hulck,USA,34545345'.split(',')]
+	# pen(file,data)
 	file = open('sample.csv','r')
 	reader(file)
 	file.close()
