@@ -1,0 +1,37 @@
+ # files
+# -------------
+
+# imfromtion
+
+# data, code
+
+# Proprties or attributes of files
+# name
+# exteion
+# 	.dll
+# 	.pyc
+# 	.py
+# 	.c .java .html .js 
+# 	.mpeg ,.img,jpg.png.mp3
+# size of the files (bytes,megabyes ,kb,gb tb)
+# location/path
+# type of files 
+# 	text
+# 	csv
+# 	excel
+# 	database files
+# 	word files
+# 	ppt
+# 	bin firls
+# 	pdfs
+# 	audio
+# 	video
+# 	images
+# encoding
+# 	utf - 8
+# 	utf -16
+# 	utf -32
+# permission (You will use OS module)
+# 	asscing 
+# 	grating persomis to user
+# encrtpython

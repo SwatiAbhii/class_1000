@@ -1,0 +1,18 @@
+This is the first line in the file
+	there 	 is the new lin # oprtaion
+	# read
+	# write
+	# append
+
+# # open the file the follwing modes
+# 	read -- 'r'
+# 	write --- 'w'
+# 	append -- 'a'
+# 	readbinary -- 'rb'
+# 	writebinary - 'wb'
+# 	# + ------> advance modes
+# 		read ----- 'r+'
+# 		write ----- 'w+'
+# 		readbinary -- 'rb+'
+# 		writebinary --- 'wb+'
+		
